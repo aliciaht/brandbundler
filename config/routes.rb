@@ -1,4 +1,12 @@
 Brandbundler::Application.routes.draw do
+
+resources :page
+
+root :to => 'page#home'
+
+match '/home' => 'page#home'
+match '/about' => 'page#about'
+match '/contact' => 'page#contact'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
