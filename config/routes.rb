@@ -7,6 +7,7 @@ root :to => 'page#home'
 match '/home' => 'page#home'
 match '/about' => 'page#about'
 match '/contact' => 'page#contact'
+match '/results' => 'page#results'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

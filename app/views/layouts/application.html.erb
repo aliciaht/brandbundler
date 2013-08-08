@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Brandbundler</title>
+  <title>Bbproto</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
-  <link href="css/bootstrap.css" rel="stylesheet" media="screen">
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
+    <link href="http://examples.getbootstrap.com/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="http://examples.getbootstrap.com/carousel/carousel.css" rel="stylesheet">
 </head>
 <body>
 
 <%= yield %>
 
 
-<script src="http://code.jquery.com/jquery.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.js"></script>
-
-<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
-<script src="js/respond.js"></script>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://examples.getbootstrap.com/assets/js/jquery.js"></script>
+    <script src="http://examples.getbootstrap.com/dist/js/bootstrap.js"></script>
+    <script src="http://examples.getbootstrap.com/assets/js/holder.js"></script>
 </body>
 </html>
+
