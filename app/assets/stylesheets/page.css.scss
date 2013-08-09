@@ -3,6 +3,28 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #333333;
+  background-image: url('/assets/Paper-23.png');
+/*  background-color: #ffffff;*/
+}
+
 .brandinput{
 	margin:5px;
+}
+
+.divline {
+height: 2px;
+background: #fff;
+border-top: solid 1px #C7C3C4;
+/*border-top: solid 1px #dddddf;*/
+margin-bottom: 50px;
+}
+
+.featurette{
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
